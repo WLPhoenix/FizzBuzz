@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-for n in range(1, 100):
+for n in range(1, 101):
     {
         (True, True): lambda: print("FizzBuzz"),
         (True, False): lambda: print("Fizz"),

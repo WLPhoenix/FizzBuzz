@@ -8,5 +8,5 @@ map(sys.stdout.write,
             (1 == 0, True): "Buzz",
             (1 == 0, 1 == 0): str(n)
         }[(n % 3 == 0, n % 5 == 0)],
-        range(1, 100)
+        range(1, 101)
     ))
